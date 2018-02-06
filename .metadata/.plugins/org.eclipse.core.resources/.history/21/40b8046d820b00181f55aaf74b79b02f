@@ -20,7 +20,7 @@ public class txtToJson {
 		
 		while(!scnr.nextLine().equals("")) {
 			String line = scnr.nextLine();
-			strArr.add(line);
+			System.out.println(line);
 		}
 		
 		String jsonStr = "{ \"WordList\": [";

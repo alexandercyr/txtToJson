@@ -1,0 +1,26 @@
+/**
+ * 
+ * TxtToJson Converter
+ * @author alexcyr
+ *
+ */
+
+package textToJson;
+
+import java.util.Scanner;
+
+
+public class txtToJson {
+	public static void main(String[] args) {
+		Scanner scnr = new Scanner(System.in);
+		System.out.println("Welcome to TxtToJson Converter");
+		System.out.println("Enter the string you want to convert to JSON: ");
+		
+		while(scnr.hasNextLine()) {
+			System.out.println(scnr.nextLine());
+			
+		}
+		System.out.println();
+	}
+	
+}

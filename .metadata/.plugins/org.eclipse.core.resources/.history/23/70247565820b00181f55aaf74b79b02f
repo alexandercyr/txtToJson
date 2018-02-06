@@ -20,6 +20,7 @@ public class txtToJson {
 		
 		while(!scnr.nextLine().equals("")) {
 			String line = scnr.nextLine();
+			System.out.println(line);
 			strArr.add(line);
 		}
 		

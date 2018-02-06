@@ -20,19 +20,20 @@ public class txtToJson {
 		
 		while(!scnr.nextLine().equals("")) {
 			String line = scnr.nextLine();
+			System.out.println(line);
 			strArr.add(line);
 		}
 		
-		String jsonStr = "{ \"WordList\": [";
+		String jsonStr = "{ WordList: ";
 		
 		for (int i = 0; i<strArr.size(); i++) {
-			jsonStr = jsonStr + "\"" + strArr.get(i) + "\"";
+			jsonStr = jsonStr + "[" + strArr.get(i) + "]";
 			if (i != (strArr.size() - 1)) {
 				jsonStr = jsonStr + ", ";
 			}
 			
 		}
-		jsonStr = jsonStr + "]}";
+		jsonStr = jsonStr + "}";
 		
 		System.out.println(jsonStr);
 	}
