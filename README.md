@@ -1,11 +1,13 @@
 # txtToJson
 Converts each new line of string to json array
 
-#Console Output
+Console Output
+
 Welcome to TxtToJson Converter
 Enter the string you want to convert to JSON (ends on empty input): 
 
 User Input:
+
 Pablo Picasso
 Simon Bolivar
 Mary Magdalene
@@ -108,4 +110,5 @@ C.S. Lewis
 Oscar Wilde
 
 Json Output:
+
 { "WordList": ["Simon Bolivar", "Queen Victoria", "Lord Baden Powell", "Babe Ruth", "Joseph Stalin", "Bill Cosby", "Adolf Hitler", "Mother Teresa", "Billie Jean King", "J.R.R. Tolkien", "Lionel Messi", "Vincent Van Gogh", "Steve Jobs", "Thomas Edison", "Usain Bolt", "Leonardo da Vinci", "Michael Jackson", "Lyndon Johnson", "Mikhail Gorbachev", "Charles de Gaulle", "Albert Einstein", "John M Keynes", "Leo Tolstoy", "Malcolm X", "Carl Lewis", "Christopher Columbus", "Jesse Owens", "Mahatma Gandhi", "Tiger Woods", "Neil Armstrong", "Marilyn Monroe", "Mao Zedong", "John Lennon", "Desmond Tutu", "Madonna", "Cleopatra", "Louis Pasteur", "Jacqueline Kennedy Onassis", "Ronald Reagan", "Abraham Lincoln", "John F. Kennedy", "Ernest Hemingway", "Bill Gates", "Haile Selassie", "Jawaharlal Nehru", "Indira Gandhi", "Vladimir Putin", "Dalai Lama", "V. Lenin", "Oscar Wilde"]}
